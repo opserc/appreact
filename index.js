@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Nav from './Nav';
+import Nav from './src/component/Nav';
 
-import './style.css';
-import './bootstrap.css';
+import './src/css/style.css';
+import './src/css/bootstrap.css';
 
 class App extends Component {
   constructor() {
